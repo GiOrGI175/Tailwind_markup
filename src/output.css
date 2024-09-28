@@ -567,6 +567,38 @@ video {
   margin-right: auto;
 }
 
+.mr-\[4px\] {
+  margin-right: 4px;
+}
+
+.ml-\[4px\] {
+  margin-left: 4px;
+}
+
+.mb-\[68px\] {
+  margin-bottom: 68px;
+}
+
+.mt-\[699px\] {
+  margin-top: 699px;
+}
+
+.mt-\[723px\] {
+  margin-top: 723px;
+}
+
+.mt-\[750px\] {
+  margin-top: 750px;
+}
+
+.mt-\[749px\] {
+  margin-top: 749px;
+}
+
+.mt-\[740px\] {
+  margin-top: 740px;
+}
+
 .flex {
   display: flex;
 }
@@ -574,6 +606,11 @@ video {
 .size-\[18px\] {
   width: 18px;
   height: 18px;
+}
+
+.size-\[58px\] {
+  width: 58px;
+  height: 58px;
 }
 
 .h-\[860px\] {
@@ -592,6 +629,22 @@ video {
   height: 55px;
 }
 
+.h-\[182px\] {
+  height: 182px;
+}
+
+.h-\[64px\] {
+  height: 64px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.max-h-\[64px\] {
+  max-height: 64px;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -608,6 +661,14 @@ video {
   width: 555px;
 }
 
+.w-\[251px\] {
+  width: 251px;
+}
+
+.w-\[252px\] {
+  width: 252px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -618,6 +679,22 @@ video {
 
 .max-w-\[1597px\] {
   max-width: 1597px;
+}
+
+.max-w-\[1096px\] {
+  max-width: 1096px;
+}
+
+.max-w-\[251px\] {
+  max-width: 251px;
+}
+
+.max-w-\[252px\] {
+  max-width: 252px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -671,6 +748,16 @@ video {
   background-color: rgb(26 26 26 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#E50000\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#141414\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 20 20 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/\'\)\] {
   background-image: url('/');
 }
@@ -715,6 +802,15 @@ video {
   padding-bottom: 14px;
 }
 
+.py-\[17px\] {
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .font-\[manrope\] {
   font-family: manrope;
 }
@@ -722,6 +818,14 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[58px\] {
+  font-size: 58px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .font-bold {
@@ -732,8 +836,20 @@ video {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-\[27px\] {
   line-height: 27px;
+}
+
+.leading-\[87px\] {
+  line-height: 87px;
 }
 
 .text-white {
@@ -749,6 +865,11 @@ video {
 .text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#999999\] {
+  --tw-text-opacity: 1;
+  color: rgb(153 153 153 / var(--tw-text-opacity));
 }
 
 .underline {
