@@ -567,8 +567,20 @@ video {
   margin-bottom: 14px;
 }
 
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
 .mb-\[68px\] {
   margin-bottom: 68px;
+}
+
+.mb-\[80px\] {
+  margin-bottom: 80px;
+}
+
+.ml-\[16px\] {
+  margin-left: 16px;
 }
 
 .ml-\[4px\] {
@@ -577,6 +589,10 @@ video {
 
 .mr-\[4px\] {
   margin-right: 4px;
+}
+
+.mt-\[150px\] {
+  margin-top: 150px;
 }
 
 .mt-\[2px\] {
@@ -589,10 +605,6 @@ video {
 
 .mt-\[740px\] {
   margin-top: 740px;
-}
-
-.mb-\[80px\] {
-  margin-bottom: 80px;
 }
 
 .flex {
@@ -615,12 +627,28 @@ video {
   height: 252px;
 }
 
+.h-\[283px\] {
+  height: 283px;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[342px\] {
+  height: 342px;
+}
+
 .h-\[520px\] {
   height: 520px;
 }
 
 .h-\[64px\] {
   height: 64px;
+}
+
+.h-\[72px\] {
+  height: 72px;
 }
 
 .h-\[75px\] {
@@ -631,20 +659,28 @@ video {
   height: 860px;
 }
 
-.h-\[342px\] {
-  height: 342px;
-}
-
-.h-\[30px\] {
-  height: 30px;
-}
-
 .w-\[115px\] {
   width: 115px;
 }
 
 .w-\[235px\] {
   width: 235px;
+}
+
+.w-\[295px\] {
+  width: 295px;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[412px\] {
+  width: 412px;
+}
+
+.w-\[512px\] {
+  width: 512px;
 }
 
 .w-\[555px\] {
@@ -657,14 +693,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[295px\] {
-  width: 295px;
-}
-
-.w-\[30px\] {
-  width: 30px;
 }
 
 .max-w-\[1096px\] {
@@ -715,10 +743,6 @@ video {
   border-radius: 8px;
 }
 
-.border-\[1px\] {
-  border-width: 1px;
-}
-
 .border-\[4px\] {
   border-width: 4px;
 }
@@ -750,6 +774,10 @@ video {
 
 .bg-\[url\(\'\.\.\/esets\/webp\/header\/header-bg\.webp\'\)\] {
   background-image: url('../esets/webp/header/header-bg.webp');
+}
+
+.bg-custom-gradient {
+  background-image: linear-gradient(to right top, #0f0f0f, #0f0f0f, #0f0f0f, #371414);;
 }
 
 .bg-gradient-to-b {
@@ -811,6 +839,10 @@ video {
   font-size: 18px;
 }
 
+.text-\[24px\] {
+  font-size: 24px;
+}
+
 .text-\[38px\] {
   font-size: 38px;
 }
@@ -837,6 +869,10 @@ video {
 
 .leading-\[27px\] {
   line-height: 27px;
+}
+
+.leading-\[36px\] {
+  line-height: 36px;
 }
 
 .leading-\[57px\] {

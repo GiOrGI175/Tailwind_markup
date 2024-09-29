@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'custom-gradient':
+          'linear-gradient(to right top, #0f0f0f, #0f0f0f, #0f0f0f, #371414);',
+      },
+    },
   },
   plugins: [
     function ({ addUtilities }) {
