@@ -9,11 +9,6 @@ module.exports = {
         'border-gradiant':
           'linear-gradient(to right, #fea7a7, #ff8f8d, #fd7771, #f95e54, #f24236, #f24236, #f24236, #f24236, #f95e54, #fd7771, #ff8f8d, #fea7a7);',
       },
-
-      borderImage: {
-        gradient:
-          'linear-gradient(90deg, rgba(229, 0, 0, 0) 0%, #E50000 16.67%, rgba(229, 0, 0, 0) 100%)',
-      },
     },
   },
   plugins: [
@@ -27,7 +22,7 @@ module.exports = {
         '.border-gradient': {
           border: '1px solid transparent',
           'border-image-source':
-            'linear-gradient(90deg, rgba(229, 0, 0, 0) 0%, #E50000 16.67%, rgba(229, 0, 0, 0) 100%)',
+            'linear-gradient(90deg,  rgba(229, 0, 0, 0) 0%, #E50000 16.67%, rgba(229, 0, 0, 0) 100%)',
           'border-image-slice': '1',
           'border-image-width': '1',
         },
