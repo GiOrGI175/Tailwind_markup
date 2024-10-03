@@ -9,6 +9,14 @@ module.exports = {
         'border-gradiant':
           'linear-gradient(to right, #fea7a7, #ff8f8d, #fd7771, #f95e54, #f24236, #f24236, #f24236, #f24236, #f95e54, #fd7771, #ff8f8d, #fea7a7);',
       },
+      screens: {
+        'max-xs': { max: '480px' },
+        'max-ss': { max: '620px' },
+        'max-sm': { max: '768px' },
+        'max-md': { max: '1060px' },
+        'max-lg': { max: '1200px' },
+        'max-xl': { max: '1700px' },
+      },
     },
   },
   plugins: [

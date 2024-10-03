@@ -16,7 +16,7 @@
     <header
       class="bg-[url('../esets/webp/header/header-bg.webp')] bg-center w-full h-[860px]"
     >
-      <div class="max-w-full m-0 mx-auto flex justify-center">
+      <div class="max-w-full m-0 mx-auto px-[16px] flex justify-center">
         <div
           class="max-w-[1597px] w-full h-[120px] flex justify-between items-center"
         >
@@ -25,7 +25,7 @@
           </div>
 
           <div
-            class="w-[555px] h-[75px] rounded-[12px] border-[4px] border-[#1F1F1F] bg-[#0F0F0F] flex justify-center items-center"
+            class="w-[555px] h-[75px] rounded-[12px] border-[4px] border-[#1F1F1F] bg-[#0F0F0F] flex justify-center items-center max-md:hidden"
           >
             <nav class="flex justify-center items-center w-full px-[10px]">
               <ul class="flex justify-between w-full">
@@ -68,7 +68,7 @@
               </ul>
             </nav>
           </div>
-          <div class="w-[98px] flex justify-between">
+          <div class="w-[98px] flex justify-between max-md:hidden">
             <div>
               <a href="#">
                 <img src="../esets/svg/header/search-Icon.svg" alt="search"
@@ -82,6 +82,13 @@
               /></a>
             </div>
           </div>
+          <div
+            class="hidden w-[48px] h-[48px] rounded-[6px] border-[3px] border-[#262626] bg-[#1A1A1A] max-md:block"
+          >
+            <div class="w-full h-full flex justify-center items-center">
+              <img src="../esets/svg/header/menu-Icon.svg" alt="menu" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="max-w-full m-0 mx-auto flex justify-center mt-[740px]">
@@ -89,12 +96,12 @@
           class="max-w-[1096px] w-full h-[182px] flex justify-center flex-col items-center"
         >
           <h1
-            class="font-[manrope] font-bold text-[58px] leading-[87px] text-center text-white"
+            class="font-[manrope] font-bold text-[58px] leading-[87px] text-center text-white max-sm:text-[28px] max-sm:max-w-[390px] max-sm:leading-[42px]"
           >
             The Best Streaming Experience
           </h1>
           <p
-            class="mb-[68px] font-[manrope] font-normal text-[18px] leading-[27px] text-center text-[#999999]"
+            class="mb-[68px] font-[manrope] font-normal text-[18px] leading-[27px] text-center text-[#999999] max-md:hidden"
           >
             StreamVibe is the best streaming experience for watching your
             favorite movies and shows on demand, anytime, anywhere. With
@@ -102,6 +109,12 @@
             latest blockbusters, classic movies, popular TV shows, and more. You
             can also create your own watchlists, so you can easily find the
             content you want to watch.
+          </p>
+          <p
+            class="hidden max-sm:block mb-[68px] font-[manrope] font-normal text-[14px] leading-[21px] text-center text-[#999999]"
+          >
+            StreamVibe is the best streaming experience for watching your
+            favorite movies and shows on demand, anytime, anywhere.
           </p>
           <a href="#">
             <button
@@ -123,7 +136,7 @@
       </div>
     </header>
 
-    <main class="w-full mt-[432px]">
+    <!-- <main class="w-full mt-[432px]">
       <div class="max-w-full m-0 mx-auto flex justify-center">
         <div
           class="max-w-[1597px] w-full h-[520px] flex flex-col justify-between items-center"
@@ -402,7 +415,7 @@
       </div>
     </main>
 
-    <!--  -->
+      
 
     <section class="w-full h-[860px] mt-[150px]">
       <div class="max-w-full m-0 mx-auto flex justify-center">
@@ -1010,139 +1023,140 @@
 
     <footer class="w-full h-[860px] mt-[150px] bg-[#0F0F0F]">
       <div class="max-w-full m-0 mx-auto flex justify-center">
-        <div class="max-w-[1597px] w-full flex flex-col">
+        <div class="max-w-[1597px] w-full mt-[100px] flex flex-col">
           <nav class="flex justify-between">
-            <div class="w-[241px] h-[110px]">
+            <div class="max-w-[241px] w-full">
               <ul>
                 <li
-                  class="font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
+                  class="mb-[24px] font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
                 >
                   Home
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Categories
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Devices
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Pricing
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   FAQ
                 </li>
               </ul>
             </div>
 
-            <div>
+            <div class="max-w-[241px] w-full">
               <ul>
                 <li
-                  class="font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
+                  class="mb-[24px] font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
                 >
                   Movies
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Gernes
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Trending
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   New Release
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Popular
                 </li>
               </ul>
             </div>
 
-            <div>
+            <div class="max-w-[241px] w-full">
               <ul>
                 <li
-                  class="font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
+                  class="mb-[24px] font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
                 >
                   Shows
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Gernes
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Trending
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   New Release
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Popular
                 </li>
               </ul>
             </div>
 
-            <div>
+            <div class="max-w-[241px] w-full">
               <ul>
                 <li
-                  class="font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
+                  class="mb-[24px] font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
                 >
                   Support
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Contact Us
                 </li>
               </ul>
             </div>
 
-            <div>
+            <div class="max-w-[241px] w-full">
               <ul>
                 <li
-                  class="font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
+                  class="mb-[24px] font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
                 >
                   Subscription
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Plans
                 </li>
                 <li
-                  class="font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
+                  class="mb-[14px] font-[manrope] font-medium text-[18px] leading-[27px] text-start text-[#999999]"
                 >
                   Features
                 </li>
               </ul>
             </div>
 
-            <div>
-              <span
-                class="font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
-                >Connect With Us</span
+            <div class="max-w-[241px] w-full">
+              <p
+                class="mb-[24px] font-[manrope] font-semibold text-[20px] leading-[30px] text-start text-white"
               >
-              <ul class="flex">
+                Connect With Us
+              </p>
+              <ul class="w-[196px] flex justify-between">
                 <li>
                   <img src="../esets/svg/footer/fb.svg" alt="facebook" />
                 </li>
@@ -1156,16 +1170,34 @@
             </div>
           </nav>
 
-          <div>
-            <p>@2023 streamvib, All Rights Reserved</p>
-            <ul>
-              <li>Terms of Use</li>
-              <li>Privacy Policy</li>
-              <li>Cookie Policy</li>
+          <div
+            class="max-w-[1596px] w-full h-[51px] border-t-[1px] mt-[100px] border-[#262626] flex justify-between items-end"
+          >
+            <p
+              class="font-[manrope] font-normal text-[18px] leading-[27px] text-start text-[#999999]"
+            >
+              @2023 streamvib, All Rights Reserved
+            </p>
+            <ul class="flex">
+              <li
+                class="w-[128px] border-r-[1px] border-[#262626] font-[manrope] font-normal text-[18px] leading-[27px] text-start text-[#999999]"
+              >
+                Terms of Use
+              </li>
+              <li
+                class="w-[148px] border-r-[1px] border-[#262626] font-[manrope] font-normal text-[18px] leading-[27px] text-center text-[#999999]"
+              >
+                Privacy Policy
+              </li>
+              <li
+                class="w-[128px] font-[manrope] font-normal text-[18px] leading-[27px] text-end text-[#999999]"
+              >
+                Cookie Policy
+              </li>
             </ul>
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
