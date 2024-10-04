@@ -1572,6 +1572,14 @@ video {
     max-height: 63px;
   }
 
+  .max-lg\:max-h-\[413px\] {
+    max-height: 413px;
+  }
+
+  .max-lg\:max-h-\[345px\] {
+    max-height: 345px;
+  }
+
   .max-lg\:w-\[191px\] {
     width: 191px;
   }
@@ -1610,6 +1618,10 @@ video {
 
   .max-lg\:max-w-\[620px\] {
     max-width: 620px;
+  }
+
+  .max-lg\:max-w-\[\] {
+    max-width: ;
   }
 
   .max-lg\:gap-\[20px\] {
