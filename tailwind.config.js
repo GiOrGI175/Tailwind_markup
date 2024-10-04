@@ -16,6 +16,7 @@ module.exports = {
         'max-ss': { max: '620px' },
         'max-sm': { max: '768px' },
         'max-md': { max: '1060px' },
+        'max-md-lg': { max: '1265px' },
         'max-lg': { max: '1440px' },
         'max-xl': { max: '1700px' },
       },
