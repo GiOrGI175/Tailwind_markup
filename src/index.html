@@ -117,10 +117,10 @@
       </div>
 
       <div
-        class="relative top-[-1350px] max-w-full m-0 mx-auto flex justify-center mt-[740px]"
+        class="relative top-[-1350px] max-w-full m-0 mx-auto flex justify-center mt-[740px] max-sm:top-[-1400px]"
       >
         <div
-          class="max-w-[1096px] w-full h-[182px] flex justify-center flex-col items-center"
+          class="max-w-[1096px] w-full h-[182px] flex justify-center flex-col items-center max-sm:h-auto"
         >
           <h1
             class="font-[manrope] font-bold text-[58px] leading-[87px] text-center text-white max-sm:text-[28px] max-sm:max-w-[390px] max-sm:leading-[42px]"
@@ -139,311 +139,431 @@
           </p>
 
           <p
-            class="hidden max-md:block mb-[68px] font-[manrope] font-normal text-[14px] leading-[21px] text-center text-[#999999]"
+            class="hidden max-md:block mb-[68px] font-[manrope] font-normal text-[14px] leading-[21px] text-center text-[#999999] max-sm:mb-[0px] max-sm:bg-[#141414]"
           >
             StreamVibe is the best streaming experience for watching your
             favorite movies and shows on demand, anytime, anywhere.
           </p>
-          <a href="#">
-            <button
-              class="max-w-[252px] w-full h-[64px] rounded-[8px] py-[17px] px-[24px] bg-[#E50000] flex justify-center items-center"
-            >
-              <div>
-                <img
-                  src="../esets/svg/header/video-Icon.svg"
-                  alt="video_icon"
-                />
-              </div>
-              <span
-                class="ml-[4px] font-[manrope] font-semibold text-[18px] leading-[27px] text-white"
-                >Start Watching Now</span
+          <div
+            class="w-full max-sm:h-[130px] max-sm:pt-[30px] max-sm:bg-[#141414] flex justify-center"
+          >
+            <a href="#">
+              <button
+                class="max-w-[252px] w-full h-[64px] rounded-[8px] py-[17px] px-[24px] bg-[#E50000] flex justify-center items-center"
               >
-            </button>
-          </a>
+                <div>
+                  <img
+                    src="../esets/svg/header/video-Icon.svg"
+                    alt="video_icon"
+                  />
+                </div>
+                <span
+                  class="ml-[4px] font-[manrope] font-semibold text-[18px] leading-[27px] text-white"
+                  >Start Watching Now</span
+                >
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </header>
 
-    <!-- <main class="w-full mt-[432px]">
-      <div class="max-w-full m-0 mx-auto flex justify-center">
+    <main class="w-full mt-[432px] max-md:mt-[100px]">
+      <div class="max-w-full m-0 mx-auto px-[16px] flex justify-center">
         <div
-          class="max-w-[1597px] w-full h-[520px] flex flex-col justify-between items-center"
+          class="max-w-[1597px] w-full h-[520px] flex flex-col justify-between items-center max-lg:max-w-[1279px] max-md:h-auto"
         >
-          <div class="w-full">
-            <h2
-              class="mb-[14px] font-[manrope] font-bold text-[38px] leading-[57px] text-start text-white"
-            >
-              Explore our wide variety of categories
-            </h2>
-            <p
-              class="mb-[80px] font-[manrope] font-normal text-[18px] leading-[27px] text-start text-[#999999]"
-            >
-              Whether you're looking for a comedy to make you laugh, a drama to
-              make you think, or a documentary to learn something new
-            </p>
-          </div>
           <div class="w-full flex justify-between">
+            <div class="flex flex-col">
+              <h2
+                class="mb-[14px] font-[manrope] font-bold text-[38px] leading-[57px] text-start text-white max-md:text-[24px] max-md:leading-[36px]"
+              >
+                Explore our wide variety of categories
+              </h2>
+              <p
+                class="mb-[80px] font-[manrope] font-normal text-[18px] leading-[27px] text-start text-[#999999] max-md:text-[14px] max-md:leading-[21px] max-md:mb-[40px]"
+              >
+                Whether you're looking for a comedy to make you laugh, a drama
+                to make you think, or a documentary to learn something new
+              </p>
+            </div>
+            <div class="max-md:hidden">
+              <div
+                class="hidden w-[205px] h-[68px] p-[12px] rounded-[10px] max-lg:flex justify-between items-center bg-[#0F0F0F]"
+              >
+                <button
+                  class="w-[44px] h-[44px] rounded-[6px] flex justify-center items-center bg-[#1A1A1A]"
+                >
+                  <img
+                    src="../esets/svg/main/left_arrow.svg"
+                    alt="left_arrow"
+                  />
+                </button>
+                <div
+                  class="w-[18px] h-[4px] ml-[12px] mr-[3px] rounded-[100px] bg-[#E50000]"
+                ></div>
+                <div
+                  class="w-[18px] h-[4px] mr-[3px] rounded-[100px] bg-[#333333]"
+                ></div>
+                <div
+                  class="w-[18px] h-[4px] mr-[3px] rounded-[100px] bg-[#333333]"
+                ></div>
+                <div
+                  class="w-[18px] h-[4px] mr-[12px] rounded-[100px] bg-[#333333]"
+                ></div>
+                <button
+                  class="w-[44px] h-[44px] rounded-[6px] flex justify-center items-center bg-[#1A1A1A]"
+                >
+                  <img
+                    src="../esets/svg/main/right_arrow.svg"
+                    alt="right_arrow"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-full flex justify-between max-md:hidden">
             <div
-              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a]"
+              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a] max-lg:w-[240px] max-lg:h-[282px]"
             >
               <div
-                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a]"
+                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a] max-lg:w-[191px] max-lg:h-[210px]"
               >
-                <div class="w-[115px] h-[123px] mr-[4px]">
+                <div
+                  class="w-[115px] h-[123px] mr-[4px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-1.svg"
                     alt="film"
-                    class="w-[115px] h-[123px]"
-                  />
-                </div>
-                <div class="w-[115px] h-[123px]">
-                  <img
-                    src="../esets/svg/main/fiml-2.svg"
-                    alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
                 <div
-                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px]"
+                  class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
+                  <img
+                    src="../esets/svg/main/fiml-2.svg"
+                    alt="film"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
+                  />
+                </div>
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
                 >
                   <img
                     src="../esets/svg/main/film-3.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
-                <div class="mask-gradient w-[115px] h-[123px] mt-[2px]">
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-4.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
               </div>
               <a href="#"
                 ><button
-                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between"
+                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between max-lg:w-[191px]"
                 >
                   Action
-                  <div class="w-[30px] h-[30px]">
+                  <div
+                    class="w-[30px] h-[30px] max-lg:w-[24px] max-lg:h-[24px]"
+                  >
                     <img
                       src="../esets/svg/main/arrow-Icon.svg"
                       alt="arrow"
-                      class="w-[30px] h-[30px] object-cover"
+                      class="w-[30px] h-[30px] object-cover max-lg:w-[24px] max-lg:h-[24px]"
                     />
                   </div></button
               ></a>
             </div>
             <div
-              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a]"
+              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a] max-lg:w-[240px] max-lg:h-[282px]"
             >
               <div
-                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a]"
+                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a] max-lg:w-[191px] max-lg:h-[210px]"
               >
-                <div class="w-[115px] h-[123px] mr-[4px]">
+                <div
+                  class="w-[115px] h-[123px] mr-[4px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-2-1.svg"
                     alt="film"
-                    class="w-[115px] h-[123px]"
-                  />
-                </div>
-                <div class="w-[115px] h-[123px]">
-                  <img
-                    src="../esets/svg/main/film-2-2.svg"
-                    alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
                 <div
-                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px]"
+                  class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
+                  <img
+                    src="../esets/svg/main/film-2-2.svg"
+                    alt="film"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
+                  />
+                </div>
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
                 >
                   <img
                     src="../esets/svg/main/film-2-3.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
-                <div class="mask-gradient w-[115px] h-[123px] mt-[2px]">
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
-                    src="../esets/svg/main/film-2-4.svg"
+                    src="../esets/svg/main/film-2-4.svg "
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
               </div>
               <a href="#"
                 ><button
-                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between"
+                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between max-lg:w-[191px]"
                 >
                   Adventure
-                  <div class="w-[30px] h-[30px]">
+                  <div
+                    class="w-[30px] h-[30px] max-lg:w-[24px] max-lg:h-[24px]"
+                  >
                     <img
                       src="../esets/svg/main/arrow-Icon.svg"
                       alt="arrow"
-                      class="w-[30px] h-[30px] object-cover"
+                      class="w-[30px] h-[30px] object-cover max-lg:w-[24px] max-lg:h-[24px]"
                     />
                   </div></button
               ></a>
             </div>
             <div
-              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a]"
+              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a] max-lg:w-[240px] max-lg:h-[282px]"
             >
               <div
-                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a]"
+                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a] max-lg:w-[191px] max-lg:h-[210px]"
               >
-                <div class="w-[115px] h-[123px] mr-[4px]">
+                <div
+                  class="w-[115px] h-[123px] mr-[4px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
-                    src="../esets/svg/main/film-3-1.svg"
+                    src="../esets/svg/main/film-3-1.svg "
                     alt="film"
-                    class="w-[115px] h-[123px]"
+                    class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
-                <div class="w-[115px] h-[123px]">
+                <div
+                  class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-3-2.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
                 <div
-                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px]"
+                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
                 >
                   <img
-                    src="../esets/svg/main/film-3-3.svg"
+                    src="../esets/svg/main/film-3-3.svg "
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
-                <div class="mask-gradient w-[115px] h-[123px] mt-[2px]">
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-3-4.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
               </div>
               <a href="#"
                 ><button
-                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between"
+                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between max-lg:w-[191px]"
                 >
                   Comedy
-                  <div class="w-[30px] h-[30px]">
+                  <div
+                    class="w-[30px] h-[30px] max-lg:w-[24px] max-lg:h-[24px]"
+                  >
                     <img
                       src="../esets/svg/main/arrow-Icon.svg"
                       alt="arrow"
-                      class="w-[30px] h-[30px] object-cover"
+                      class="w-[30px] h-[30px] object-cover max-lg:w-[24px] max-lg:h-[24px]"
                     />
                   </div></button
               ></a>
             </div>
             <div
-              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a]"
+              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a] max-lg:w-[240px] max-lg:h-[282px]"
             >
               <div
-                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a]"
+                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a] max-lg:w-[191px] max-lg:h-[210px]"
               >
-                <div class="w-[115px] h-[123px] mr-[4px]">
+                <div
+                  class="w-[115px] h-[123px] mr-[4px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-4-1.svg"
                     alt="film"
-                    class="w-[115px] h-[123px]"
-                  />
-                </div>
-                <div class="w-[115px] h-[123px]">
-                  <img
-                    src="../esets/svg/main/film-4-2.svg"
-                    alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
                 <div
-                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px]"
+                  class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
+                  <img
+                    src="../esets/svg/main/film-4-2.svg"
+                    alt="film"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
+                  />
+                </div>
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
                 >
                   <img
                     src="../esets/svg/main/film-4-3.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
-                <div class="mask-gradient w-[115px] h-[123px] mt-[2px]">
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-4-4.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
               </div>
               <a href="#"
                 ><button
-                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between"
+                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between max-lg:w-[191px]"
                 >
                   Drama
-                  <div class="w-[30px] h-[30px]">
+                  <div
+                    class="w-[30px] h-[30px] max-lg:w-[24px] max-lg:h-[24px]"
+                  >
                     <img
                       src="../esets/svg/main/arrow-Icon.svg"
                       alt="arrow"
-                      class="w-[30px] h-[30px] object-cover"
+                      class="w-[30px] h-[30px] object-cover max-lg:w-[24px] max-lg:h-[24px]"
                     />
                   </div></button
               ></a>
             </div>
             <div
-              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a]"
+              class="w-[295px] h-[342px] rounded-[12px] flex flex-col justify-center items-center bg-[#1a1a1a] max-lg:w-[240px] max-lg:h-[282px]"
             >
               <div
-                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a]"
+                class="bg-[#1a1a1a] w-[235px] h-[252px] flex flex-row flex-wrap bg-gradient-to-b from-[#1a1a1a] to-[#1a1a1a] max-lg:w-[191px] max-lg:h-[210px]"
               >
-                <div class="w-[115px] h-[123px] mr-[4px]">
+                <div
+                  class="w-[115px] h-[123px] mr-[4px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-5-1.svg"
                     alt="film"
-                    class="w-[115px] h-[123px]"
-                  />
-                </div>
-                <div class="w-[115px] h-[123px]">
-                  <img
-                    src="../esets/svg/main/film-5-2.svg"
-                    alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
                 <div
-                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px]"
+                  class="w-[115px] h-[123px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
+                  <img
+                    src="../esets/svg/main/film-5-2.svg"
+                    alt="film"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
+                  />
+                </div>
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mr-[4px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
                 >
                   <img
                     src="../esets/svg/main/film-5-3.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
-                <div class="mask-gradient w-[115px] h-[123px] mt-[2px]">
+                <div
+                  class="mask-gradient w-[115px] h-[123px] mt-[2px] max-lg:w-[93px] max-lg:h-[102px]"
+                >
                   <img
                     src="../esets/svg/main/film-5-4.svg"
                     alt="film"
-                    class="w-[115px] h-[123px] object-cover"
+                    class="w-[115px] h-[123px] object-cover max-lg:w-[93px] max-lg:h-[102px]"
                   />
                 </div>
               </div>
               <a href="#"
                 ><button
-                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between"
+                  class="w-[235px] font-[manrope] font-semibold text-[18px] leading-[27px] text-start text-white flex justify-between max-lg:w-[191px]"
                 >
                   Horror
-                  <div class="w-[30px] h-[30px]">
+                  <div
+                    class="w-[30px] h-[30px] max-lg:w-[24px] max-lg:h-[24px]"
+                  >
                     <img
                       src="../esets/svg/main/arrow-Icon.svg"
                       alt="arrow"
-                      class="w-[30px] h-[30px] object-cover"
+                      class="w-[30px] h-[30px] object-cover max-lg:w-[24px] max-lg:h-[24px]"
                     />
                   </div></button
               ></a>
             </div>
           </div>
+          <div
+            class="hidden max-md:flex flex-col justify-center items-center max-w-[358px] w-full h-[201px] border-[1px] border-[#262626] bg-[#1A1A1A] rounded-[10px]"
+          >
+            <div class="max-w-[321px] w-full h-[140px] flex flex-wrap">
+              <div class="max-w-[158px]">
+                <img
+                  src="../esets/webp/main/move-1.webp"
+                  alt="film1"
+                  class="w-full"
+                />
+              </div>
+              <div class="max-w-[158px]">
+                <img
+                  src="../esets/webp/main/move-2.webp"
+                  alt="film2"
+                  class="w-full"
+                />
+              </div>
+              <div class="mask-gradient max-w-[158px]">
+                <img
+                  src="../esets/webp/main/move-3.webp"
+                  alt="film3"
+                  class="w-full"
+                />
+              </div>
+              <div class="mask-gradient max-w-[158px]">
+                <img src="../esets/webp/main/move-4.webp" alt="film4" />
+              </div>
+            </div>
+            <button
+              class="max-w-[321px] h-[21px] w-full flex justify-between font-[manrope] font-semibold text-[14px] leading-[21px] text-start text-white"
+            >
+              Action
+              <div>
+                <img
+                  src="../esets/svg/main/arrow-Icon.svg"
+                  class="w-full"
+                  alt="arrow"
+                />
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </main>
-
-      
 
     <section class="w-full h-[860px] mt-[150px]">
       <div class="max-w-full m-0 mx-auto flex justify-center">
@@ -621,7 +741,7 @@
       </div>
     </section>
 
-    <section class="w-full h-[860px] mt-[150px]">
+    <!-- <section class="w-full h-[860px] mt-[150px]">
       <div class="max-w-full m-0 mx-auto flex justify-center">
         <div
           class="max-w-[1597px] w-full h-[520px] flex flex-col justify-between"
