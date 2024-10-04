@@ -663,6 +663,10 @@ video {
   margin-top: 80px;
 }
 
+.mt-\[200px\] {
+  margin-top: 200px;
+}
+
 .flex {
   display: flex;
 }
@@ -945,6 +949,18 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[758px\] {
+  max-width: 758px;
+}
+
+.max-w-\[558px\] {
+  max-width: 558px;
+}
+
+.max-w-\[62px\] {
+  max-width: 62px;
 }
 
 .flex-row {
@@ -1407,6 +1423,10 @@ video {
     max-width: 1279px;
   }
 
+  .max-md\:flex-col {
+    flex-direction: column;
+  }
+
   .max-md\:text-\[14px\] {
     font-size: 14px;
   }
@@ -1417,6 +1437,14 @@ video {
 
   .max-md\:text-\[28px\] {
     font-size: 28px;
+  }
+
+  .max-md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .max-md\:text-\[16px\] {
+    font-size: 16px;
   }
 
   .max-md\:leading-\[21px\] {
@@ -1497,8 +1525,28 @@ video {
     max-width: 413px;
   }
 
+  .max-lg\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .max-lg\:max-w-\[620px\] {
+    max-width: 620px;
+  }
+
+  .max-lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-lg\:justify-center {
+    justify-content: center;
+  }
+
   .max-lg\:gap-\[20px\] {
     gap: 20px;
+  }
+
+  .max-lg\:p-\[24px\] {
+    padding: 24px;
   }
 
   .max-lg\:text-\[14px\] {
@@ -1507,6 +1555,10 @@ video {
 
   .max-lg\:text-\[16px\] {
     font-size: 16px;
+  }
+
+  .max-lg\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .max-lg\:leading-\[24px\] {
