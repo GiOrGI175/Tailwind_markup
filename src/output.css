@@ -679,6 +679,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
@@ -955,6 +959,14 @@ video {
   max-width: 100%;
 }
 
+.max-w-\[310px\] {
+  max-width: 310px;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -977,6 +989,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -1340,16 +1356,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 620px) {
-  .ss\:items-start {
-    align-items: flex-start;
-  }
-
-  .ss\:justify-between {
-    justify-content: space-between;
-  }
-}
-
 @media (max-width: 768px) {
   .max-sm\:top-\[-1400px\] {
     top: -1400px;
@@ -1365,6 +1371,18 @@ video {
 
   .max-sm\:mb-\[30px\] {
     margin-bottom: 30px;
+  }
+
+  .max-sm\:mt-\[50px\] {
+    margin-top: 50px;
+  }
+
+  .max-sm\:mb-\[20px\] {
+    margin-bottom: 20px;
+  }
+
+  .max-sm\:flex {
+    display: flex;
   }
 
   .max-sm\:h-\[130px\] {
@@ -1391,8 +1409,32 @@ video {
     max-width: 390px;
   }
 
-  .max-sm\:justify-between {
-    justify-content: space-between;
+  .max-sm\:max-w-\[179px\] {
+    max-width: 179px;
+  }
+
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .max-sm\:items-start {
+    align-items: flex-start;
+  }
+
+  .max-sm\:items-center {
+    align-items: center;
+  }
+
+  .max-sm\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .max-sm\:justify-center {
+    justify-content: center;
   }
 
   .max-sm\:bg-\[\#141414\] {
@@ -1412,6 +1454,10 @@ video {
 
   .max-sm\:pt-\[30px\] {
     padding-top: 30px;
+  }
+
+  .max-sm\:text-center {
+    text-align: center;
   }
 
   .max-sm\:text-\[14px\] {
@@ -1496,6 +1542,10 @@ video {
     flex-direction: column;
   }
 
+  .max-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
   .max-md\:items-start {
     align-items: flex-start;
   }
@@ -1530,6 +1580,10 @@ video {
 
   .max-md\:leading-\[42px\] {
     line-height: 42px;
+  }
+
+  .max-md\:leading-\[31px\] {
+    line-height: 31px;
   }
 }
 
