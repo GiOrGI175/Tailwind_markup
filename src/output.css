@@ -663,10 +663,6 @@ video {
   margin-top: 80px;
 }
 
-.mr-\[30px\] {
-  margin-right: 30px;
-}
-
 .flex {
   display: flex;
 }
@@ -935,20 +931,20 @@ video {
   max-width: 358px;
 }
 
-.max-w-\[470px\] {
-  max-width: 470px;
+.max-w-\[412px\] {
+  max-width: 412px;
 }
 
-.max-w-full {
-  max-width: 100%;
+.max-w-\[470px\] {
+  max-width: 470px;
 }
 
 .max-w-\[512px\] {
   max-width: 512px;
 }
 
-.max-w-\[412px\] {
-  max-width: 412px;
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-row {
@@ -975,28 +971,12 @@ video {
   align-items: center;
 }
 
-.items-baseline {
-  align-items: baseline;
-}
-
-.items-stretch {
-  align-items: stretch;
-}
-
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-\[20px\] {
-  gap: 20px;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .gap-\[30px\] {
@@ -1183,11 +1163,6 @@ video {
 .py-\[17px\] {
   padding-top: 17px;
   padding-bottom: 17px;
-}
-
-.px-\[50px\] {
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .text-center {
@@ -1378,28 +1353,28 @@ video {
     padding-top: 30px;
   }
 
-  .max-sm\:text-\[28px\] {
-    font-size: 28px;
+  .max-sm\:text-\[14px\] {
+    font-size: 14px;
   }
 
   .max-sm\:text-\[20px\] {
     font-size: 20px;
   }
 
-  .max-sm\:text-\[14px\] {
-    font-size: 14px;
+  .max-sm\:text-\[28px\] {
+    font-size: 28px;
   }
 
-  .max-sm\:leading-\[42px\] {
-    line-height: 42px;
+  .max-sm\:leading-\[21px\] {
+    line-height: 21px;
   }
 
   .max-sm\:leading-\[30px\] {
     line-height: 30px;
   }
 
-  .max-sm\:leading-\[21px\] {
-    line-height: 21px;
+  .max-sm\:leading-\[42px\] {
+    line-height: 42px;
   }
 }
 
@@ -1428,16 +1403,8 @@ video {
     height: auto;
   }
 
-  .max-md\:max-w-\[q279px\] {
-    max-width: q279px;
-  }
-
   .max-md\:max-w-\[1279px\] {
     max-width: 1279px;
-  }
-
-  .max-md\:max-w-\[413px\] {
-    max-width: 413px;
   }
 
   .max-md\:text-\[14px\] {
@@ -1466,10 +1433,6 @@ video {
 }
 
 @media (max-width: 1440px) {
-  .max-lg\:mr-\[20px\] {
-    margin-right: 20px;
-  }
-
   .max-lg\:flex {
     display: flex;
   }
@@ -1526,12 +1489,12 @@ video {
     max-width: 300px;
   }
 
-  .max-lg\:max-w-\[413px\] {
-    max-width: 413px;
-  }
-
   .max-lg\:max-w-\[333px\] {
     max-width: 333px;
+  }
+
+  .max-lg\:max-w-\[413px\] {
+    max-width: 413px;
   }
 
   .max-lg\:gap-\[20px\] {
